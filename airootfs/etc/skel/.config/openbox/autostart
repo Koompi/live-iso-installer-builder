@@ -1,0 +1,7 @@
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
+compton --refresh-rate 60 &
+tint2 -c /home/liveuser/.config/tint2/kosmos.tint2rc &
+pcmanfm --desktop &
+nm-applet &
+mate-power-manager &
